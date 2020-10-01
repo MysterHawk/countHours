@@ -1,0 +1,14 @@
+{
+  "taskName": "Run countHours.nim",
+  "command": "nim",
+  "args": ["c", "-r", "src/countHours.nim"],
+  "options": {
+    "cwd": "${workspaceRoot}"
+  },
+  "type": "shell",
+  "group": {
+    "kind": "build",
+    "isDefault": true
+  },
+  "version": "2.0.0"
+}
