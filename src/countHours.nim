@@ -52,7 +52,7 @@ when isMainModule:
       minutes = minutes - floorDiv(minutes, 60)*60
     
     # if there is some value in the variable print the result tab
-    if hours > 0 or minutes > 0:
+    if (hours > 0 or minutes > 0) and inputUser != -1:
       echo "===+++++=== TAB TOTAL HOURS ===+++++==="
       echo "\n", hours, " hours ", minutes, " minutes"
       echo "\n===+++++=== TAB TOTAL HOURS ===+++++==="
